@@ -129,7 +129,7 @@ export const MyThread: FC<MyThreadProps> = (props: MyThreadProps) => {
             switchSelectedThread={props.switchSelectedThread}
             deleteThread={props.deleteThread}
           />
-          <p className="text-xl">Open Canvas</p>
+          <p className="text-xl">Skillzo</p>
         </div>
         {props.showNewThreadButton ? (
           <TooltipIconButton
@@ -196,7 +196,7 @@ const MyThreadWelcome: FC = () => {
           <AvatarImage src="/lc_logo.jpg" alt="LangChain Logo" />
           <AvatarFallback>LC</AvatarFallback>
         </Avatar>
-        <p className="mt-4 font-medium">What would you like to write today?</p>
+        <p className="mt-4 font-medium">I am Skillzo, your skills coach, How Can I help you today?</p>
       </div>
     </ThreadPrimitive.Empty>
   );

@@ -377,7 +377,7 @@ export function ArtifactRenderer(props: ArtifactRendererProps) {
               <form className="relative w-full overflow-hidden flex flex-row items-center gap-1">
                 <Input
                   className="w-full transition-all duration-300 focus:ring-0 ease-in-out p-1 focus:outline-none border-0 focus-visible:ring-0"
-                  placeholder="Ask Open Canvas..."
+                  placeholder="Ask Skillzo..."
                   autoFocus
                   value={inputValue}
                   onChange={(e) => setInputValue(e.target.value)}
@@ -402,7 +402,7 @@ export function ArtifactRenderer(props: ArtifactRendererProps) {
                 onClick={() => setIsInputVisible(true)}
                 className="transition-all duration-300 ease-in-out w-full"
               >
-                Ask Open Canvas
+                Ask Skillzo
               </Button>
             )}
           </div>
